@@ -14,7 +14,7 @@
  */
 (function () {
   "use strict";
-  var B = function () { return window.AstrBotPluginView; };
+  var B = function () { return window.AstrBotPluginView || window.AstrBotPluginPage; };
   if (!B()) {
     console.error("[FishTool] AstrBot bridge SDK 未加载，插件视图无法工作");
     return;

@@ -8,7 +8,11 @@ desc: |
 version: 0.2.5
 author: FORK-is-coding
 repo: https://github.com/FORK-is-coding/astrbot_plugin_FishTool
-astrbot_version: ">=4.29,<5"
+astrbot_version: ">=4.28,<5"
+pages:
+  - name: console
+    title: FishTool 控制台
+
 tags:
   - bilibili
   - 运营
