@@ -10,7 +10,8 @@
  */
 (function () {
   "use strict";
-  var B = window.AstrBotPluginView;
+  // AstrBot 4.29+ 为 AstrBotPluginView（保留 AstrBotPluginPage 别名），4.28 只有 AstrBotPluginPage。
+  var B = window.AstrBotPluginView || window.AstrBotPluginPage;
   if (!B || !window.__FISHTOOL_ASTRBOT__) return;
 
   function toast(message, level, title) {
